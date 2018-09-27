@@ -1,0 +1,29 @@
+{
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src",
+    "~@": "${workspaceRoot}/src"
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.validation.script": false,
+  "vetur.validation.template": false,
+  "beautify.tabSize": 2,
+  "beautify.options": {
+    "end_with_newline": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": false
+}
